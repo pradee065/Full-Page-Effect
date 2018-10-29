@@ -1,0 +1,219 @@
+$font: 'Montserrat', sans-serif;
+$font-medium : 500;
+$font-bold: 900;
+$font-bold2: 800;
+$h4size: 35px;
+$srvcdescrption : 14px;
+$srvc-list: 16px; 
+$srvc-list-color: #fff;
+$srvc-sec1: solid 2px #fff70a;
+$srvc-sec2-color: #fff70a;
+$srvc-sec3-color: #fb6f30;
+$srvc-sec4-color: #ddff20;
+$srvc-letterspacing: 1.3px;
+$srvc-li-letterspacing: 1.3px;
+$srvce-text-container: 82%;
+
+
+
+* {
+    box-sizing: border-box; 
+  }
+  html, body {
+    height: 100%;
+  }
+body {
+    font-family: $font !important;
+
+    transition: background 1.5s ease;
+    background-size: cover !important;
+    background-position: center center !important;
+    transition: 1.5s all !important;
+}
+.fp-viewing-firstSection {
+    background: url(../images/hero-background.png) no-repeat;
+}
+.fp-viewing-secondSection {
+    background: url(../images/hero-background2.png) no-repeat;
+}
+.fp-viewing-thirdSection {
+    background: url(../images/hero-background3.png) no-repeat;
+}
+.fp-viewing-fourSection {
+    background: url(../images/hero-background4.png) no-repeat;
+}
+.fp-viewing-fiveSection {
+    background: url(../images/hero-background2.png) no-repeat;
+}
+
+.fp-viewing-sixSection {
+    background: url(../images/hero-background.png) no-repeat;
+}
+
+.fp-viewing-sevenSection {
+    background: url(../images/hero-background4.png) no-repeat;
+}
+.sub-container h4 {
+    font-weight: $font-bold2;
+    font-size: $h4size;
+    line-height: 45px;
+    letter-spacing: $srvc-letterspacing;
+}
+.sub-container p {
+    font-weight: $font-medium;
+    line-height: 25px;
+    letter-spacing: $srvc-letterspacing;
+}
+.srvc-list {
+    color: $srvc-list-color;
+    text-transform: uppercase;
+    width: 30%;
+    position: fixed;
+    right: 10%;
+    top: 30%;
+    z-index: 10;
+}
+.srvc-list ul {
+    background: url(../images/d-ivider.png)no-repeat left top;
+    height: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.srvc-list ul li {
+    list-style: none;
+    margin-bottom: 21px;
+    font-size: $srvc-list;
+    line-height: 20px;
+    letter-spacing: $srvc-li-letterspacing;
+}
+.srvc-list ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.srvc-text-container {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.srvc-text-container {
+    width: $srvce-text-container;
+}
+.sub-container {
+    width: 85%;
+    margin: 0px auto;
+    color: white;
+}
+.sub-container p {
+    width: 60%;
+}
+.sec-head {
+    font-weight: $font-bold2;
+    font-size: $h4size;
+    line-height: normal;
+    letter-spacing: $srvc-letterspacing;
+    margin-bottom: 10px;
+    width: 55%;
+}
+.srvc-modes a.srvc-learnmore {
+    width: 175px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: $font-bold;
+    font-size: 1em;
+    letter-spacing: 0.8px;
+}
+.srvc-modes a {
+    text-decoration: none;
+    color: #fff;
+}
+.srvc-modes a.srvc-learnmore:hover, .srvc-modes a:hover {
+    text-decoration: underline;
+    color: $srvc-sec2-color;
+}
+//Section heading colors goes here
+nav.srvc-list.main-nav>ul>li:nth-child(2).active a {
+    color: $srvc-sec2-color;
+}
+
+nav.srvc-list.main-nav>ul>li:nth-child(3).active a {
+    color: $srvc-sec3-color;
+}
+
+nav.srvc-list.main-nav>ul>li:nth-child(4).active a {
+    color: $srvc-sec4-color;
+}
+nav.srvc-list.main-nav>ul>li:nth-child(7).active a {
+    color: red;
+}
+
+.srvc-sec1 .srvc-modes h4,
+.srvc-sec1 .srvc-modes p {
+    color: #ff6c78;
+}
+.srvc-sec2 .sec-head {
+    color: $srvc-sec2-color;
+}
+.srvc-sec3 .sec-head {
+    color: $srvc-sec3-color;
+}
+
+.srvc-sec4 .sec-head {
+    color: $srvc-sec4-color;
+}
+
+.srvc-sec2 .srvc-modes a.srvc-learnmore {
+    border: solid 2px #fff70a;
+    color: $srvc-sec2-color
+}
+.srvc-sec3 .srvc-modes a.srvc-learnmore {
+    border: solid 2px $srvc-sec3-color;
+    color: $srvc-sec3-color;
+}
+
+.srvc-sec4 .srvc-modes a.srvc-learnmore {
+    border: solid 2px $srvc-sec4-color;
+    color: $srvc-sec4-color;
+}
+.srvc-sec2 .srvc-modes a.active {
+    color: $srvc-sec2-color;
+    text-decoration: underline;
+}
+.srvc-sec3 .srvc-modes a.active {
+    color: $srvc-sec3-color;
+    text-decoration: underline;
+}
+.srvc-strategy.active a {
+    color: $srvc-sec2-color;
+}
+.srvc-comm.active a {
+    color: $srvc-sec3-color;
+}
+.fp-viewing-fourSection footer div {
+    display: block !important;
+}
+#actions {
+    position: fixed;
+    top: 73px;
+    left: 30px;
+    z-index: 99999;
+}
+#actions li {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    margin: 2px;
+    color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+
+

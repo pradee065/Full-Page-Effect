@@ -1,0 +1,198 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-transition: background 1.5s ease;
+  -o-transition: background 1.5s ease;
+  transition: background 1.5s ease;
+  background-size: cover !important;
+  background-position: center center !important;
+  -webkit-transition: 1.5s all !important;
+  -o-transition: 1.5s all !important;
+  transition: 1.5s all !important; }
+
+.fp-viewing-firstSection {
+  background: url(../images/hero-background.png) no-repeat; }
+
+.fp-viewing-secondSection {
+  background: url(../images/hero-background2.png) no-repeat; }
+
+.fp-viewing-thirdSection {
+  background: url(../images/hero-background3.png) no-repeat; }
+
+.fp-viewing-fourSection {
+  background: url(../images/hero-background4.png) no-repeat; }
+
+.fp-viewing-fiveSection {
+  background: url(../images/hero-background2.png) no-repeat; }
+
+.fp-viewing-sixSection {
+  background: url(../images/hero-background.png) no-repeat; }
+
+.fp-viewing-sevenSection {
+  background: url(../images/hero-background4.png) no-repeat; }
+
+.sub-container h4 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 1.3px; }
+
+.sub-container p {
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.3px; }
+
+.srvc-list {
+  color: #fff;
+  text-transform: uppercase;
+  width: 30%;
+  position: fixed;
+  right: 10%;
+  top: 30%;
+  z-index: 10; }
+
+.srvc-list ul {
+  background: url(../images/d-ivider.png) no-repeat left top;
+  height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.srvc-list ul li {
+  list-style: none;
+  margin-bottom: 21px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.3px; }
+
+.srvc-list ul li a {
+  color: #fff;
+  text-decoration: none; }
+
+.srvc-text-container {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.srvc-text-container {
+  width: 82%; }
+
+.sub-container {
+  width: 85%;
+  margin: 0px auto;
+  color: white; }
+
+.sub-container p {
+  width: 60%; }
+
+.sec-head {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+  width: 55%; }
+
+.srvc-modes a.srvc-learnmore {
+  width: 175px;
+  height: 45px;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: 0.8px; }
+
+.srvc-modes a {
+  text-decoration: none;
+  color: #fff; }
+
+.srvc-modes a.srvc-learnmore:hover, .srvc-modes a:hover {
+  text-decoration: underline;
+  color: #fff70a; }
+
+nav.srvc-list.main-nav > ul > li:nth-child(2).active a {
+  color: #fff70a; }
+
+nav.srvc-list.main-nav > ul > li:nth-child(3).active a {
+  color: #fb6f30; }
+
+nav.srvc-list.main-nav > ul > li:nth-child(4).active a {
+  color: #ddff20; }
+
+nav.srvc-list.main-nav > ul > li:nth-child(7).active a {
+  color: red; }
+
+.srvc-sec1 .srvc-modes h4,
+.srvc-sec1 .srvc-modes p {
+  color: #ff6c78; }
+
+.srvc-sec2 .sec-head {
+  color: #fff70a; }
+
+.srvc-sec3 .sec-head {
+  color: #fb6f30; }
+
+.srvc-sec4 .sec-head {
+  color: #ddff20; }
+
+.srvc-sec2 .srvc-modes a.srvc-learnmore {
+  border: solid 2px #fff70a;
+  color: #fff70a; }
+
+.srvc-sec3 .srvc-modes a.srvc-learnmore {
+  border: solid 2px #fb6f30;
+  color: #fb6f30; }
+
+.srvc-sec4 .srvc-modes a.srvc-learnmore {
+  border: solid 2px #ddff20;
+  color: #ddff20; }
+
+.srvc-sec2 .srvc-modes a.active {
+  color: #fff70a;
+  text-decoration: underline; }
+
+.srvc-sec3 .srvc-modes a.active {
+  color: #fb6f30;
+  text-decoration: underline; }
+
+.srvc-strategy.active a {
+  color: #fff70a; }
+
+.srvc-comm.active a {
+  color: #fb6f30; }
+
+.fp-viewing-fourSection footer div {
+  display: block !important; }
+
+#actions {
+  position: fixed;
+  top: 73px;
+  left: 30px;
+  z-index: 99999; }
+
+#actions li {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 7px;
+  margin: 2px;
+  color: #ccc;
+  display: inline-block;
+  cursor: pointer; }
